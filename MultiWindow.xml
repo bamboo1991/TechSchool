@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing to see it works">
+    <test name="just testing">
+        <parameter name="DriverName" value="chrome"></parameter>
+        <classes>
+            <class name="MultipleWindows"></class>
+        </classes>
+    </test>
+</suite>

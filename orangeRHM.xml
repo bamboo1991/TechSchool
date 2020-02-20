@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeTest">
+    <groups>
+        <run>
+            <include name="title">
+
+            </include>
+        </run>
+    </groups>
+    <test name="Login Function">
+        <parameter name="DriverName" value="chrome"></parameter>
+        <classes>
+            <class name="OrangeHRMTEST"></class>
+        </classes>
+    </test>
+</suite>
