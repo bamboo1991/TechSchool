@@ -35,7 +35,7 @@ public class UserNameHoverOver {
         driver.get("http://the-internet.herokuapp.com/context_menu");
         WebElement HotSpot = driver.findElement(By.id("hot-spot"));
         actions.contextClick(HotSpot).build().perform();
-        
+        System.out.println();
 
     }
     @Test
