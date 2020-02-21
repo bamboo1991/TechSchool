@@ -23,6 +23,9 @@ while (count<=4){
      deleteButton = driver.findElement(By.xpath("//div/button[@onclick='deleteElement()']"));
      count++;
 }
+
+
+
 Assert.assertTrue(deleteButton.isDisplayed());
 
 
